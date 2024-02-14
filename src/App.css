@@ -26,7 +26,7 @@ section {
 }
 
 /* fancy round button */
-button {
+.counter {
   background-color: transparent;
   border: 2px solid #0078E8;
   border-radius: 4pt;
@@ -41,7 +41,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.counter:hover {
   background-color: #0078E8;
   color: white;
 }
