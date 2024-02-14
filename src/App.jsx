@@ -27,11 +27,9 @@ function App() {
       <section>
         <h2>Counter Example!</h2>
         {/* This is how you make a one-line comment in JSX */}
-        <div className="card">
-          <button className="counter" onClick={() => setCount((count) => count + 1)}>
-            count is {count}
-          </button>
-        </div>
+        <button className="counter" onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
       </section>
       
       <section>
