@@ -30,6 +30,7 @@ function App() {
         <button className="counter" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        { count > 5 ? <p>Count is greater than 5!</p> : null }
       </section>
       
       <section>
