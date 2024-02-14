@@ -1,8 +1,5 @@
-# React + Vite
+# Blueprint React Workshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Getting Started in React!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the starter template code for our React + Vite application (Vite is just a quick build tool we're using so you can think of it just as a React App for now if you're not familiar with it). Feel free to follow along and view the branches for the different states of the project
