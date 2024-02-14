@@ -1,17 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import blueprintLogo from './assets/blueprint.png'
 import './App.css'
-import Card from './components/Card.jsx'
 
 function App() {
   const [count, setCount] = useState(0);
-  const [pokemons, setPokemons] = useState([]);
-
-  useEffect(() => {
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=20')
-      .then((response) => response.json())
-      .then((data) => setPokemons(data.results))
-  }, [])
 
   return (
     <>
@@ -37,11 +29,7 @@ function App() {
       <section>
         <h2>API Example!</h2>
         {/* Calling Pokimon API and displaying the first 20 pokimon from the call */}
-        <div className="card-section">
-          {pokemons.map(pokemon => {
-            return <Card key={pokemon.name} name={pokemon.name} url={pokemon.url}/>
-          })}
-        </div>
+
       </section>
       
     </>
