@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Section Layout */
+section {
+  border-radius: 2rem;
+  border: 2pt solid #93C9FE;
+  margin: 2rem 5rem;
+  padding: 2rem;
+  background-color: #93c9fe29;
+}
+
+/* Logo CSS - making sure it is the right size and has right hover effect */
+.logo {
+  height: 6em;
+  padding: 1rem;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #e4f5f9aa);
+}
+
+/* fancy round button */
+button {
+  background-color: transparent;
+  border: 2px solid #0078E8;
+  border-radius: 4pt;
+  color: #fff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0078E8;
+  color: white;
+}
+
+/* Card section */
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
