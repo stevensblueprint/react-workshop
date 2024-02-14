@@ -13,3 +13,7 @@ npm install
 ```
 npm run dev
 ```
+
+# Starter Template!
+
+Here is the starter template for the workshop
