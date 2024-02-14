@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.center {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue {
+	font-weight: bold;
+	color: yellow;
+}
+
+.green {
+	color: green;
+}
