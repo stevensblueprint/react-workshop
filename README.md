@@ -16,4 +16,4 @@ npm run dev
 
 # Pokemon Example
 
-Here we will call the free the pokemon api get demonstrate how we can render some 
+Here we will call the free the pokemon api get demonstrate how we can render some pokemon data. We'll create our own component and map over the returned data to render it all
